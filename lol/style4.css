@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    height: 500px;
+}
+
+.big {
+    margin: 0 auto;
+    width: 1500px;
+    height: 1000px;
+    background-image: url(images2/登录.webp);
+    background-size: 1500px;
+    background-repeat: no-repeat;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav .div {
+    width: 1000px;
+    height: 538px;
+
+}
+
+/* nav部分start  */
+.nav {
+    height: 77px;
+    width: 1000px;
+    margin: 0 auto;
+    border-color: #fff;
+    border-bottom: 1px solid gray;
+}
+
+.nav .left {
+    float: left;
+    margin: 0 34px;
+    line-height: 77px;
+}
+
+.nav .left img {
+    padding-top: 10px;
+}
+
+.nav .right a:hover {
+    color: orange;
+}
+
+.nav .right {
+    float: right;
+}
+
+.bd {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 1000px;
+    height: 350px;
+
+    margin: 0 auto;
+}
+
+.bd h4 {
+    display: block;
+    height: 50px;
+    width: 100px;
+    margin: 5px auto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.bd .bdl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 10px;
+    width: 500px;
+    height: 230px;
+    border-right: 1px solid gray;
+}
+
+.bd p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.bdl .fu {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.bdl .fu img {
+    position: absolute;
+    top: 0;
+    left: 39%;
+
+}
+
+.bd .bdr {
+    float: right;
+
+    width: 500px;
+    height: 230px;
+}
+
+.bdr li {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 0;
+
+}
+
+.bdr .col img {
+    background-color: skyblue;
+}
+
+.bdr ul {
+    margin: 75px 20px;
+
+}
+
+
+
+.footer ul {
+
+    height: 20px;
+    width: 1490px;
+    padding-left: 10px;
+    margin: 10px auto;
+}
+
+.footer ul li a {
+    color: #000;
+
+}
+
+.footer ul li {
+    float: left;
+    margin: 0 100px;
+    padding-left: 45px;
+}
+
+.first {
+    margin-left: 100px;
+}
+
+.footer .first:hover+.code {
+    opacity: 1;
+    z-index: 999;
+}
+
+.footer .code {
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 80px;
+    left: 345px;
+    width: 500px;
+    height: 240px;
+
+    opacity: 0;
+}
+
+.code div {
+    height: 70px;
+    line-height: 70px;
+}
+
+
+
+.code div input {
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    color: #cecece;
+    text-align: center;
+}
+
+.code .position1-code {
+    position: absolute;
+    top: 10px;
+    left: 20%;
+}
+
+.code .position2-code {
+    position: absolute;
+    top: 90px;
+    left: 20%;
+}
+
+.code .tongyi {
+    color: #cecece;
+
+}
+
+.code .tongyi input {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.code .tongyi a {
+    color: skyblue;
+}
+
+.code .denglu {
+    position: relative;
+    margin: 0 auto;
+    width: 305px;
+    height: 44px;
+    background-color: #79c5f9;
+    border-radius: 5px;
+}
+
+.code .denglu span {
+    position: absolute;
+    left: 125px;
+    top: -12px;
+    margin: 0 auto;
+    color: #fff;
+}
